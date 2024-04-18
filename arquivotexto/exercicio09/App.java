@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Application {
+public class App {
     public static void main(String[] args) {
         String nomeArquivo = "C:\\Users\\paulo\\OneDrive\\Documentos\\ArquivoJava\\arquivotexto\\exercicio09\\meuarquivo.txt";
         String palavraLer = "Java";
