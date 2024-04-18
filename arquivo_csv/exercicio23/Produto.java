@@ -1,3 +1,4 @@
+package br.edu.uniaeso;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;
@@ -49,7 +50,7 @@ public class Produto {
     }
 
     public static void main(String[] args) {
-        String csvFile = "C:\\Users\\paulo\\OneDrive\\Documentos\\ArquivoJava\\arquivotexto\\exercicio05\\produtos.csv";
+        String csvFile = "C:\\Users\\paulo\\OneDrive\\Documentos\\ArquivoJava\\arquivocsv\\exercicio23\\produtos.csv";
 
         try {
             CSVReader reader = new CSVReader(new FileReader(csvFile));
